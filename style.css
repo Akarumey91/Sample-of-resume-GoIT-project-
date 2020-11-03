@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  border: 40px solid;
+  border-color: #f5f7fa;
+}
+
+.main-container {
+  display: flex;
+  box-shadow: 10px 10px 10px rgba(220, 220, 225, 0.5);
+}
+
+.about-me-container {
+  padding: 108px 0 108px 0;
+}
+
+/*Sidebar container*/
+.sidebar {
+  background: #1e2939;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin-top: 40px;
+  width: 368px;
+  height: 364px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 41px;
+  margin-top: 57px;
+  color: #ffffff;
+}
+
+.contacts ul {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.contacts li {
+  color: #ff6b08;
+}
+
+.mail-number {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.mail-number span {
+  font-weight: bold;
+}
+
+a {
+  margin-left: 10px;
+}
+
+a:visited,
+a:link {
+  color: #787f88;
+}
+
+a:hover {
+  color: #4080c0;
+}
+
+.mail-number div {
+  margin-bottom: 10px;
+}
+
+.tech-skills,
+.soft-skills {
+  margin-top: 45px;
+  line-height: 18px;
+}
+
+.tech-skills span,
+.soft-skills span {
+  color: #ffffff;
+}
+
+/*About me container*/
+.about-me-container {
+  margin-left: 88px;
+}
+
+.me-info h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.me-info h2 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.me-info p {
+  width: 48%;
+  margin-top: 26px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #595959;
+}
+
+.projects {
+  margin-top: 24px;
+}
+
+.projects ol {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  line-height: 1.7;
+  font-weight: bold;
+  list-style-position: inside;
+}
+
+.projects-technology {
+  font-weight: normal;
+}
+
+.work-experience {
+  margin-top: 24px;
+}
+
+.work-experience h3,
+.education h3 {
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.work-experience h4,
+.university {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.name-company,
+.university {
+  color: #ff6b08;
+}
+
+.working-date,
+.education span {
+  color: #787f88;
+  font-size: 12px;
+}
+
+.working-country {
+  color: #000;
+}
+
+.work-experience li {
+  width: 70%;
+  margin-bottom: 10px;
+  margin-left: 13px;
+  margin-top: 10px;
+  line-height: 1.5;
+  color: #595959;
+  font-size: 15px;
+}
+
+.education h5 {
+  margin-bottom: 5px;
+}
